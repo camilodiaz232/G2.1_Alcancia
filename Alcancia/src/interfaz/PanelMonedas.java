@@ -103,7 +103,7 @@ public class PanelMonedas extends JPanel implements ActionListener, ItemListener
         // Inicializa los componentes del panel
         grupoBotones = new ButtonGroup();
 
-        radio50 = new JRadioButton("0", new ImageIcon("./data/50.png"));
+        radio50 = new JRadioButton("0", new ImageIcon("./Alcancia/data/50.png"));
         grupoBotones.add(radio50);
         radio50.setVerticalTextPosition(SwingConstants.BOTTOM);
         radio50.setHorizontalTextPosition(SwingConstants.CENTER);
@@ -111,7 +111,7 @@ public class PanelMonedas extends JPanel implements ActionListener, ItemListener
         radio50.setBorder(null);
         add(radio50);
 
-        radio100 = new JRadioButton("0", new ImageIcon("./data/100.png"));
+        radio100 = new JRadioButton("0", new ImageIcon("./Alcancia/data/100.png"));
         grupoBotones.add(radio100);
         radio100.setVerticalTextPosition(SwingConstants.BOTTOM);
         radio100.setHorizontalTextPosition(SwingConstants.CENTER);
@@ -119,7 +119,7 @@ public class PanelMonedas extends JPanel implements ActionListener, ItemListener
         radio100.setBorder(null);
         add(radio100);
 
-        radio200 = new JRadioButton("0", new ImageIcon("./data/200.png"));
+        radio200 = new JRadioButton("0", new ImageIcon("./Alcancia/data/200.png"));
         grupoBotones.add(radio200);
         radio200.setVerticalTextPosition(SwingConstants.BOTTOM);
         radio200.setHorizontalTextPosition(SwingConstants.CENTER);
@@ -127,7 +127,7 @@ public class PanelMonedas extends JPanel implements ActionListener, ItemListener
         radio200.setBorder(null);
         add(radio200);
 
-        radio500 = new JRadioButton("0", new ImageIcon("./data/500.png"));
+        radio500 = new JRadioButton("0", new ImageIcon("./Alcancia/data/500.png"));
         grupoBotones.add(radio500);
         radio500.setVerticalTextPosition(SwingConstants.BOTTOM);
         radio500.setHorizontalTextPosition(SwingConstants.CENTER);
@@ -135,7 +135,7 @@ public class PanelMonedas extends JPanel implements ActionListener, ItemListener
         radio500.setBorder(null);
         add(radio500);
 
-        radio1000 = new JRadioButton("0", new ImageIcon("./data/1000.png"));
+        radio1000 = new JRadioButton("0", new ImageIcon("./Alcancia/data/1000.png"));
         grupoBotones.add(radio1000);
         radio1000.setVerticalTextPosition(SwingConstants.BOTTOM);
         radio1000.setHorizontalTextPosition(SwingConstants.CENTER);

@@ -99,7 +99,7 @@ public class PanelBotones extends JPanel implements ActionListener {
 
         // Inicializa los componentes del panel
         JPanel panelInternoRomper = new JPanel();
-        btnRomper = new JButton(new ImageIcon("./data/martillo.png"));
+        btnRomper = new JButton(new ImageIcon("./Alcancia/data/martillo.png"));
         btnRomper.setActionCommand(ROMPER);
         btnRomper.setMargin(new Insets(1, 1, 1, 1));
         btnRomper.addActionListener(this);
